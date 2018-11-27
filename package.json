@@ -1,0 +1,23 @@
+{
+  "name": "master-class-graphql",
+  "version": "1.0.0",
+  "description": "A graphQL master class for Simplon Saint-Gaudens promotion 2. This app is made with GraphQL, Express, Express GraphQL and Axios.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "David Journo",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
